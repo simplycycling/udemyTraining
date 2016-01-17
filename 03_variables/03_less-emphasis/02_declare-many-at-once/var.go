@@ -9,5 +9,5 @@ func main() {
 
 	message = "Hello World"
 
-	fmt.Println(message + a, b, c)
+	fmt.Println(message+a, b, c)
 }

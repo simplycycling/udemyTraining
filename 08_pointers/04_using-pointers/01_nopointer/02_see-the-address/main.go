@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func zero(z int) {
-	fmt.Printf("%p\n",&z)
+	fmt.Printf("%p\n", &z)
 	fmt.Println(&z)
 	z = 0
 }

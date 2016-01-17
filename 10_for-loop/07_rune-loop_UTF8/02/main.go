@@ -8,7 +8,7 @@ func main() {
 	}
 	/* This following block shows what happens when you use single quotes - the
 	string gets interpreted as a rune, and its decimal code is outputted.
-	 */
+	*/
 	foo := 'a'
 	fmt.Println(foo)
 	fmt.Printf("%T \n", foo)

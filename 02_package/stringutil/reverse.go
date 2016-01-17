@@ -13,4 +13,4 @@ go build
 
 go install
 		will place the package inside the pkg directory of the workspace
- */
+*/
