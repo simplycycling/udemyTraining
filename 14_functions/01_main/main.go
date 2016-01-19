@@ -1,7 +1,8 @@
 package main
+
 import "fmt"
 
-func main()  {
+func main() {
 	fmt.Println("Hello World!")
 
 }
@@ -14,4 +15,4 @@ Syntax is:
 func <receiver> main(params) returns {
 
 }
- */
+*/

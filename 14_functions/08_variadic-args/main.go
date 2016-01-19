@@ -1,7 +1,8 @@
 package main
+
 import "fmt"
 
-func main()  {
+func main() {
 	data := []float64{20, 27, 87, 36, 45, 112}
 	n := average(data...)
 	fmt.Println(n)

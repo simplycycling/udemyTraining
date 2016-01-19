@@ -1,7 +1,8 @@
 package main
+
 import "fmt"
 
-func main()  {
+func main() {
 	n := average(43, 56, 87, 12, 45, 57)
 	fmt.Println(n)
 }
