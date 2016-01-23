@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func filter(numbers []int, example func(int) bool) []int {
-	xs := []int{}					// the idiomatically correct way to say this would be "var xs []int"
+	xs := []int{} // the idiomatically correct way to say this would be "var xs []int"
 	for _, n := range numbers {
 		if example(n) {
 			xs = append(xs, n)
